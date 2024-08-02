@@ -15,7 +15,7 @@ width, height = 1870 - 1360, 968 - 740
 def open_timer():
     url = "https://relogioonline.com.br/temporizador/#countdown=00:00:01&enabled=0&seconds=1&sound=happy&loop=1"
     webbrowser.open(url)
-    time.sleep(5)
+    time.sleep(10)
     pyautogui.click(x=1220, y=735)
 
 
